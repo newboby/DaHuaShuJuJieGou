@@ -4,12 +4,14 @@ import java.util.Arrays;
 
 /**
  * 冒泡排序
+ * 基本原理：n与n-1索引上的数值比较
  * 排序所需的时间(n*n),空间 (n)
  * Created by LiuShaoFu on 2018/5/4.
  */
 public class BullebSort {
     /**
      * 基本冒泡排序
+     *
      * @param list
      */
     public static void BullebSort1(int[] list) {
@@ -33,12 +35,12 @@ public class BullebSort {
      */
     public static void BullebSort2(int[] list) {
         boolean flag = true;
-        for (int i = 1; i < list.length&&flag; i++) {
-            flag=false;
+        for (int i = 1; i < list.length && flag; i++) {
+            flag = false;
             for (int j = list.length - 1; j >= i; j--) {
                 if (list[j - 1] < list[j]) {
                     util.swap(list, j, j - 1);
-                    flag=true;
+                    flag = true;
                 }
             }
         }
