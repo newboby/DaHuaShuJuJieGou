@@ -7,6 +7,7 @@ import java.util.Arrays;
 /**
  * 堆排序
  * 原理：根据完全树的性质
+ * 时间 （nlogn）
  * Created by Administrator on 2018/5/4.
  */
 public class HeapSort {
