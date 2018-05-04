@@ -1,4 +1,4 @@
-package no9.sort;
+package session9.sort;
 
 import java.util.Arrays;
 

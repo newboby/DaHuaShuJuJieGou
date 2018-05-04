@@ -1,6 +1,6 @@
-package no9.sort;
+package session9.sort;
 
-import no9.util.util;
+import session9.util.util;
 
 import java.util.Arrays;
 
